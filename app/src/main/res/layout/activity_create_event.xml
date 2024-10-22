@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/titleEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Название события"/>
+
+    <EditText
+        android:id="@+id/descriptionEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Описание"/>
+
+    <CheckBox
+        android:id="@+id/allDayCheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Весь день"/>
+
+    <EditText
+        android:id="@+id/startTimeEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Время начала"
+        android:focusable="false"
+        android:clickable="true"/>
+
+    <EditText
+        android:id="@+id/endTimeEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Время окончания"
+        android:focusable="false"
+        android:clickable="true"/>
+
+    <Button
+        android:id="@+id/eventColorPicker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Выбрать цвет"/>
+
+    <Button
+        android:id="@+id/saveButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Сохранить"/>
+
+</LinearLayout>
